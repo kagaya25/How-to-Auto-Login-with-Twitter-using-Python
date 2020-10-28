@@ -8,7 +8,7 @@ pwd=input('Enter Password:')
   
 driver = webdriver.Chrome(ChromeDriverManager().install()) 
 driver.get('https://twitter.com/') 
-print ("Opened facebook") 
+print ("Opened Twitter") 
 sleep(1) 
   
 username_box = driver.find_element_by_css_selector("#react-root > div > div > div > main > div > div > div > div:nth-child(1) > div.css-1dbjc4n.r-1awozwy.r-1d2f490.r-7v430y.r-1j3t67a.r-u8s1d.r-1s7wq8y.r-13qz1uu > div > form > div > div:nth-child(6) > div > label > div > div.css-1dbjc4n.r-18u37iz.r-16y2uox.r-1wbh5a2.r-1udh08x > div > input")
